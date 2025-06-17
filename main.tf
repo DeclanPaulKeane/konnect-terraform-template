@@ -33,9 +33,3 @@ module "external_service" {
   control_plane_id = konnect_gateway_control_plane.control_plane.id
   portal_id        = var.portal_id
 } 
-
-module "grpc_service" {
-  source = "./services/grpc-service"
-
-  control_plane_id = konnect_gateway_control_plane.control_plane.id
-} 

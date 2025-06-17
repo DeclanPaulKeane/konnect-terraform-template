@@ -50,7 +50,7 @@ resource "konnect_gateway_plugin_cors" "external_cors" {
 
 resource "konnect_api" "httpbin_api" {
   provider    = konnect-beta
-  name        = "Httpbin API Terraform"
+  name        = "Httpbin API"
   version     = "v1"
   description = "This is a description of a httpbin  API"
   labels = {

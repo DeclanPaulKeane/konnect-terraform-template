@@ -1,0 +1,5 @@
+konnect_pat             = "kpat_pVSyC1eqkPmb1gl5x7yf8Ll2ATNFi7efHHrGmVtUS7iA0o3ae"
+konnect_server_url      = "https://us.api.konghq.com"
+control_plane_name      = "Test Control Plane Name"
+control_plane_description = "Example control plane for Terraform configuration"
+portal_id               = "1edcaab3-b841-4332-a1f2-1100f88c2716"
