@@ -1,0 +1,1 @@
+# konnect-terraform-template

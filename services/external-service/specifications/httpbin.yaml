@@ -1,0 +1,53 @@
+openapi: 3.0.0
+info:
+  title: Simple HttpBin API
+  version: 1.0.0
+
+servers:
+  - url: https://api-example.kong-sales-engineering.com
+
+paths:
+  /anything:
+    get:
+      summary: Echo GET request
+      security:
+        - ApiKeyAuth: []
+        - BearerAuth: []
+      responses:
+        '200':
+          description: Successful GET response
+    post:
+      summary: Echo POST request
+      security:
+        - ApiKeyAuth: []
+        - BearerAuth: []
+      responses:
+        '200':
+          description: Successful POST response
+    put:
+      summary: Echo PUT request
+      security:
+        - ApiKeyAuth: []
+        - BearerAuth: []
+      responses:
+        '200':
+          description: Successful PUT response
+    delete:
+      summary: Echo DELETE request
+      security:
+        - ApiKeyAuth: []
+        - BearerAuth: []
+      responses:
+        '200':
+          description: Successful DELETE response
+
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: apikey
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT  # Optional, used for documentation tools like Swagger UI
