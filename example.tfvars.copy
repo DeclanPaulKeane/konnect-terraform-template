@@ -1,5 +1,5 @@
-konnect_pat             = "kpat_xxx"
+konnect_pat             = "kpat_your_pat_here"
 konnect_server_url      = "https://us.api.konghq.com"
-control_plane_name      = "Test Control Plane Name"
+control_plane_name      = "example-control-plane"
 control_plane_description = "Example control plane for Terraform configuration"
-portal_id               = "xxxx"
+portal_id               = "your_portal_id_here"
